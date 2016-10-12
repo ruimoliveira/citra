@@ -4,11 +4,14 @@
 
 -Development Process
 
-  Briefly describe the development process
-  
-  Grade: 7pts
-  
+Incremental development and delivery
+• Develop the system in increments and evaluate each
+increment before proceeding to the development of the
+next increment
+• Evaluation done by user/customer proxy
+• Some of the increments can be deployed to end-users
+• The waterfall model can be followed in each increment
+• Normal approach used in agile methods
+
   Opinions, Critics and Alternatives 
-  
-  Grade: 10pts
 
