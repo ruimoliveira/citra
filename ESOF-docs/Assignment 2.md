@@ -7,7 +7,9 @@ Specific Requirements and Features (Functional and Non-Functional requirements)
 >Grade: 5pts
 
 Use Cases (including diagrams)
->Grade: 6pts
+These are the uses we could figure out for both the application.
+![alt tag](http://i.imgur.com/deDgtE4.png)
 
 Domain Model
 >Grade: 6 pts
+
