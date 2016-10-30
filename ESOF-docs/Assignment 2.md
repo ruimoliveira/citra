@@ -43,7 +43,9 @@ Non-functional requirements, as the name suggests, are requirements that are not
 
 **Use Cases**
 
-These are the uses we could figure out for both the application.
+An use case diagram represents the user's interactions with the system, identifying the different users of the system and different use cases. An use case lists the action/s for a user to achieve a certain goal. This should be as simple as possible, capturing all requirements from a user's perspective in order to facilitate understanding.
+
+Below, there is a simple way to demonstrate use cases for Citra Emulator:
 ![alt tag](http://i.imgur.com/deDgtE4.png)
 
 **Domain Model**
