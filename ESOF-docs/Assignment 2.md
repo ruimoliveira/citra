@@ -8,6 +8,8 @@ We can divide them in two: user requirements and system requirements.
 User requirements are statements of what services of the system is expected to provide to system users and the constraints under which it must operate.
 System requirements are more detailed descriptions of the software system’s functions, services, and operational constraints.
 
+In this project, the only system requirements are OpenGL 3.3 and a 64-bit OS.
+
 Software system requirements are often classified as functional requirements or non-functional requirements.
 The functional requirements for a system describe what the system should do. 
 Non-functional requirements are requirements that are not directly concerned with the specific services delivered by the system to its users.
@@ -29,16 +31,21 @@ Given the circumstances of this project (hobby, volunteers, low amount of time t
 
 **Specific Requirements and Features** 
 
-As we said in the introduction,software system requirements are often classified as functional requirements or non-functional requirements.
-The functional requirements for a system describe what the system should do.In this case a functional requerimet is having the emulator running smoothly and with no crashes.It will also include emulating the hardware spec - as the purpose of the emulator is to 
-to duplicate the functionality of hardware.
+As stated above, a functional requirement specifies something a system should do (describes how a function should behave). For example: the box of a game must be able to contain the pieces of the game without losing them.
 
-Non-functional requirements, as the name suggests, are requirements that are not directly concerned with the specific services delivered by the system to its users.Their non-functional requirement are adhering standarts to their code and following their design process.
+On the other hand, a non-functional requirement describes how a system is supposed to be (a constraint on the system behaviour). For example: the box of a game must be made of leather.
+
+In this case, the funcional requirements for the emulator is to be running smoothly and with no crashes. Also, it should be able to emulate the hardware spec.
+
+The non-functional requirements should be coding in c/c++, meet the coding standards and obey to the design process.
 
 
 
 **Use Cases**
 
+An use case diagram represents the user's interactions with the system, identifying the different users of the system and different use cases. An use case lists the action/s for a user to achieve a certain goal. This should be as simple as possible, capturing all requirements from a user's perspective in order to facilitate understanding.
+
+Although very simple, these are the uses cases for Citra Emulator:
 ![alt tag](http://i.imgur.com/deDgtE4.png)
 
 | Actor(s) | Use Case(s) | Brief Explanation |
@@ -47,8 +54,24 @@ Non-functional requirements, as the name suggests, are requirements that are not
 | Indie Developer | Debug | A developer should be able to debug his game on Citra. |
 | Gamer | Save Game & Load Game | Although some (if not all) games already come with a save/load game feature, some emulators allow users to save the state of the emulation. |
 
+
+
 **Domain Model**
 
 Domain model is a conceptual model of the domain that incorporates both behavior and data. Its purpose is to connect Use Case Model with Software Design Model. Since this emulator is such a simple concept, and the problem domain is rather small, there really isn't the need for real world classes. With this in mind we decided, that this would be the domain model for the project:
- -![alt tag](http://icecream.me/uploads/d3285a245af38b0a7e8def42c7fe5cb0.png)
 
+ ![alt tag](http://icecream.me/uploads/d3285a245af38b0a7e8def42c7fe5cb0.png)
+ 
+ 
+ 
+ **Goup:**
+ 
+ -[Guilherme Amaro](https://github.com/PORShoterxx)
+ 
+ -[José Francisco Gomes](https://github.com/teresa-Guilherme/)
+ 
+ -[Pedro Ferreira](https://github.com/pedrof81)
+ 
+ -[Rui Miguel Oliveira](https://github.com/ruimoliveira)
+
+ 
