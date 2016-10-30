@@ -43,10 +43,14 @@ Non-functional requirements, as the name suggests, are requirements that are not
 
 **Use Cases**
 
-An use case diagram represents the user's interactions with the system, identifying the different users of the system and different use cases. An use case lists the action/s for a user to achieve a certain goal. This should be as simple as possible, capturing all requirements from a user's perspective in order to facilitate understanding.
-
-Below, there is a simple way to demonstrate use cases for Citra Emulator:
+The use cases describes what Citra does from a user’s perspective. Since we are not dealing with a game, but an actual emulator, the nuances of certain game features are not the concern of this model. Although very simple, these are the uses cases for Citra Emulator.
 ![alt tag](http://i.imgur.com/deDgtE4.png)
+
+| Actor(s) | Use Case(s) | Brief Explanation |
+| --- | --- | --- | 
+| Indie Developer & Gamer | Emulate Game | This is the core feature of an emulator, no explanation required. |
+| Indie Developer | Debug | A developer should be able to debug his game on Citra. |
+| Gamer | Save Game & Load Game | Although some (if not all) games already come with a save/load game feature, some emulators allow users to save the state of the emulation. |
 
 **Domain Model**
 
