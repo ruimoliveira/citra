@@ -9,17 +9,19 @@ User requirements are statements of what services of the system is expected to p
 System requirements are more detailed descriptions of the software system’s functions, services, and operational constraints.
 
 Software system requirements are often classified as functional requirements or non-functional requirements.
-Citra requires a 64-bit processor and OpenGl3.3 in order to emulate the 3DS.
 The functional requirements for a system describe what the system should do. 
 Non-functional requirements, as the name suggests, are requirements that are not directly concerned with the specific services delivered by the system to its users.
 
 Requirement engineering processes may include four important high-level activities. These focus on assessing if the system is useful to the business (feasibility study), discovering requirements (elicitation and analysis), converting these requirements into some standard form (specification), and checking that the requirements actually define the system that the customer wants (validation).
 
-Since Citra is not supported by any company they don't have a deadline to implement features, so how does the team decide on whether to implement a new feature or no? They implement features when they want or when the contributors have a feature that have the quality they require in order to avoid bugs or setbacks
-For requirements elicitation we informal interview the developers and discover their requirements in their project site https://citra-emu.org/. 
+Since Citra is not supported by any company they don't have a deadline to implement features, so how does the team decide on whether to implement a new feature or no? 
 
-Their main focus right now is to fix bugs that stop games from booting and bugs that crashes the program when running. While issues about specific games not booting are valid bugs, they are currently not interested in them unless there are several games which fail with the same or similar messages. There are too many non-working games right now to file individual issues for every one of them.
-In future with low priority they intend to implement features like cheat code support, improve speed of cut scenes and support for smartphones, but right now, the main focus is getting the PC port stable.
+For requirements elicitation we informal interviewed the developers as we also discovered their requirements in their project site https://citra-emu.org/. 
+As said by one of the developers in our informal interview, requeriments are mostly fixing bugs and implementing new features.With an emulator, you already have a "spec" to follow - the original console that you're trying to emulate, so new "features" generally means emulating a part of that console that you do not already implement (or at times, implement incompletely). User requests commonly aren't related to emulation but rather usability features - For example, a user wouldn't request to implement 3DS fragment lighting (we already know to do that, it's part of the hardware!), but they might request to implement cheat code support or changes to the UI.These types of usability features tend to be a lower priority(as we still don't have the most important thing, the fully working emulation completed), so they aren't a big driving factor in the work that we do currently. This may change as the project becomes more mature. 
+Lastly, they say optimization is another big area - lots of effort is spent identifying bottlenecks and rewriting things to improve speed. Emulation of modern video game systems requires both fast/efficient code and a fast computer.
+
+They implement features when they want or when the contributors have a feature that have the quality they require in order to avoid bugs or setbacks but their main focus right now is to fix bugs that stop games from booting and bugs that crashes the program when running,having a fully working emulation completed.Issues about specific games not booting are valid bugs, they are currently not interested in them unless there are several games which fail with the same or similar messages. There are too many non-working games right now to file individual issues for every one of them.
+In future they intend to implement features like cheat code support, improve speed of cut scenes and support for smartphones.
 Given the circumstances of this project (hobby, volunteers, low amount of time that developers have to work and inconsistent frequency of commits, specific knowledge about console hardware, emulation, among other areas) the reality of the new features is contributors of Citra contribute what they like and not always what is ideal.
 
 
