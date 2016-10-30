@@ -25,10 +25,6 @@ They implement features when they want or when the contributors have a feature t
 In future they intend to implement features like cheat code support, improve speed of cut scenes and support for mobile platforms.
 Given the circumstances of this project (hobby, volunteers, low amount of time that developers have to work and inconsistent frequency of commits, specific knowledge about console hardware, emulation, among other areas) the reality of the new features is, contributors of Citra contribute what they like and not always what is ideal.
 
-Citra works on all three major desktop OSes and is actively tested and supported on various 64-bit version of Windows (7 and up), Linux and Mac OS X. Other platforms may work, but aren't tested by developers. In far future, mobile platforms may be targeted as well. They have no plans to support 32-bit operating system officially.
-At this point, Citra is simply not fast enough to run most commercial games at full speed, even if your computer can run the most demanding of PC games just fine.
-The only hard requirements for the official version of Citra is a graphics chip that supports at least OpenGL 3.3 and a 64-bit OS, but you definitely want a processor with the highest possible performance per core.
-
 
 
 **Specific Requirements and Features** 
@@ -43,7 +39,6 @@ Non-functional requirements, as the name suggests, are requirements that are not
 
 **Use Cases**
 
-The use cases describes what Citra does from a user’s perspective. Since we are not dealing with a game, but an actual emulator, the nuances of certain game features are not the concern of this model. Although very simple, these are the uses cases for Citra Emulator.
 ![alt tag](http://i.imgur.com/deDgtE4.png)
 
 | Actor(s) | Use Case(s) | Brief Explanation |
