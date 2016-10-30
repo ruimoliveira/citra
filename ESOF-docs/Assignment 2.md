@@ -8,9 +8,11 @@ We can divide them in two: user requirements and system requirements.
 User requirements are statements of what services of the system is expected to provide to system users and the constraints under which it must operate.
 System requirements are more detailed descriptions of the software system’s functions, services, and operational constraints.
 
+In this project, the only system requirements are OpenGL 3.3 and a 64-bit OS.
+
 Software system requirements are often classified as functional requirements or non-functional requirements.
 The functional requirements for a system describe what the system should do. 
-Non-functional requirements, as the name suggests, are requirements that are not directly concerned with the specific services delivered by the system to its users.
+Non-functional requirements, are requirements that are not directly concerned with the specific services delivered by the system to its users.
 
 Requirement engineering processes may include four important high-level activities. These focus on assessing if the system is useful to the business (feasibility study), discovering requirements (elicitation and analysis), converting these requirements into some standard form (specification), and checking that the requirements actually define the system that the customer wants (validation).
 
@@ -25,21 +27,15 @@ They implement features when they want or when the contributors have a feature t
 In future they intend to implement features like cheat code support, improve speed of cut scenes and support for mobile platforms.
 Given the circumstances of this project (hobby, volunteers, low amount of time that developers have to work and inconsistent frequency of commits, specific knowledge about console hardware, emulation, among other areas) the reality of the new features is, contributors of Citra contribute what they like and not always what is ideal.
 
-Citra works on all three major desktop OSes and is actively tested and supported on various 64-bit version of Windows (7 and up), Linux and Mac OS X. Other platforms may work, but aren't tested by developers. In far future, mobile platforms may be targeted as well. They have no plans to support 32-bit operating system officially.
-At this point, Citra is simply not fast enough to run most commercial games at full speed, even if your computer can run the most demanding of PC games just fine.
-The only hard requirements for the official version of Citra is a graphics chip that supports at least OpenGL 3.3 and a 64-bit OS, but you definitely want a processor with the highest possible performance per core.
-
-
-
 **Specific Requirements and Features** 
 
-As we said in the introduction,software system requirements are often classified as functional requirements or non-functional requirements.
-The functional requirements for a system describe what the system should do.In this case a functional requerimet is having the emulator running smoothly and with no crashes.It will also include emulating the hardware spec - as the purpose of the emulator is to 
-to duplicate the functionality of hardware.
+As stated above, a functional requirement specifies something a system should do (describes how a function should behave). For example: the box of a game must be able to contain the pieces of the game without losing them.
 
-Non-functional requirements, as the name suggests, are requirements that are not directly concerned with the specific services delivered by the system to its users.Their non-functional requirement are adhering standarts to their code and following their design process.
+On the other hand, a non-functional requirement describes how a system is supposed to be (a constraint on the system behaviour). For example: the box of a game must be made of leather.
 
+In this case, the funcional requirements for the emulator is to be running smoothly and with no crashes. Also, it should be able to emulate the hardware spec.
 
+The non-functional requirements should be coding in c/c++, meet the coding standards and obey to the design process.
 
 **Use Cases**
 
