@@ -27,6 +27,8 @@ They implement features when they want or when the contributors have a feature t
 In future they intend to implement features like cheat code support, improve speed of cut scenes and support for mobile platforms.
 Given the circumstances of this project (hobby, volunteers, low amount of time that developers have to work and inconsistent frequency of commits, specific knowledge about console hardware, emulation, among other areas) the reality of the new features is, contributors of Citra contribute what they like and not always what is ideal.
 
+
+
 **Specific Requirements and Features** 
 
 As stated above, a functional requirement specifies something a system should do (describes how a function should behave). For example: the box of a game must be able to contain the pieces of the game without losing them.
@@ -37,12 +39,22 @@ In this case, the funcional requirements for the emulator is to be running smoot
 
 The non-functional requirements should be coding in c/c++, meet the coding standards and obey to the design process.
 
+
+
 **Use Cases**
 
 An use case diagram represents the user's interactions with the system, identifying the different users of the system and different use cases. An use case lists the action/s for a user to achieve a certain goal. This should be as simple as possible, capturing all requirements from a user's perspective in order to facilitate understanding.
 
-Below, there is a simple way to demonstrate use cases for Citra Emulator:
+Although very simple, these are the uses cases for Citra Emulator:
 ![alt tag](http://i.imgur.com/deDgtE4.png)
+
+| Actor(s) | Use Case(s) | Brief Explanation |
+| --- | --- | --- | 
+| Indie Developer & Gamer | Emulate Game | This is the core feature of an emulator, no explanation required. |
+| Indie Developer | Debug | A developer should be able to debug his game on Citra. |
+| Gamer | Save Game & Load Game | Although some (if not all) games already come with a save/load game feature, some emulators allow users to save the state of the emulation. |
+
+
 
 **Domain Model**
 
@@ -50,13 +62,15 @@ Domain model is a conceptual model of the domain that incorporates both behavior
  -![alt tag](http://icecream.me/uploads/d3285a245af38b0a7e8def42c7fe5cb0.png)
  
  
+ 
  **Goup:**
+ 
+ -[Guilherme Amaro](https://github.com/PORShoterxx)
  
  -[José Francisco Gomes](https://github.com/teresa-Guilherme/)
  
- -[Rui Miguel Oliveira](https://github.com/ruimoliveira)
- 
  -[Pedro Ferreira](https://github.com/pedrof81)
  
- -[Guilherme Amaro](https://github.com/PORShoterxx)
+ -[Rui Miguel Oliveira](https://github.com/ruimoliveira)
 
+ 
