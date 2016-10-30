@@ -50,9 +50,13 @@ Domain model is a conceptual model of the domain that incorporates both behavior
  -![alt tag](http://icecream.me/uploads/d3285a245af38b0a7e8def42c7fe5cb0.png)
  
  
- **GROUP:**
+ **Goup:**
+ 
  -[José Francisco Gomes](https://github.com/teresa-Guilherme/)
+ 
  -[Rui Miguel Oliveira](https://github.com/ruimoliveira)
+ 
  -[Pedro Ferreira](https://github.com/pedrof81)
+ 
  -[Guilherme Amaro](https://github.com/PORShoterxx)
 
