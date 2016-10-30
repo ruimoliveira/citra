@@ -49,6 +49,8 @@ Specific Requirements and Features (Functional and Non-Functional requirements)
 These are the uses we could figure out for both the application.
 ![alt tag](http://i.imgur.com/deDgtE4.png)
 
-Domain Model
->Grade: 6 pts
+**Domain Model**
+
+Domain model is a conceptual model of the domain that incorporates both behavior and data. Its purpose is to connect Use Case Model with Software Design Model. Since this emulator is such a simple concept, and the problem domain is rather small, there really isn't the need for real world classes. With this in mind we decided, that this would be the domain model for the project:
+ -![alt tag](http://icecream.me/uploads/d3285a245af38b0a7e8def42c7fe5cb0.png)
 
