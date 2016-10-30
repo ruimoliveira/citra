@@ -8,9 +8,11 @@ We can divide them in two: user requirements and system requirements.
 User requirements are statements of what services of the system is expected to provide to system users and the constraints under which it must operate.
 System requirements are more detailed descriptions of the software system’s functions, services, and operational constraints.
 
+In this project, the only system requirements are OpenGL 3.3 and a 64-bit OS.
+
 Software system requirements are often classified as functional requirements or non-functional requirements.
 The functional requirements for a system describe what the system should do. 
-Non-functional requirements, as the name suggests, are requirements that are not directly concerned with the specific services delivered by the system to its users.
+Non-functional requirements, are requirements that are not directly concerned with the specific services delivered by the system to its users.
 
 Requirement engineering processes may include four important high-level activities. These focus on assessing if the system is useful to the business (feasibility study), discovering requirements (elicitation and analysis), converting these requirements into some standard form (specification), and checking that the requirements actually define the system that the customer wants (validation).
 
@@ -24,12 +26,6 @@ Lastly, they say optimization is another big area - lots of effort is spent iden
 They implement features when they want or when the contributors have a feature that have the quality they require in order to avoid bugs or setbacks but their main focus right now is having a fully working emulation completed,to fix bugs that stop games from booting and bugs that crashes the program when running.Issues about specific games not booting are valid bugs but they are currently not interested in them unless there are several games which fail with the same or similar messages. There are too many non-working games right now to file individual issues for every one of them.
 In future they intend to implement features like cheat code support, improve speed of cut scenes and support for mobile platforms.
 Given the circumstances of this project (hobby, volunteers, low amount of time that developers have to work and inconsistent frequency of commits, specific knowledge about console hardware, emulation, among other areas) the reality of the new features is, contributors of Citra contribute what they like and not always what is ideal.
-
-Citra works on all three major desktop OSes and is actively tested and supported on various 64-bit version of Windows (7 and up), Linux and Mac OS X. Other platforms may work, but aren't tested by developers. In far future, mobile platforms may be targeted as well. They have no plans to support 32-bit operating system officially.
-At this point, Citra is simply not fast enough to run most commercial games at full speed, even if your computer can run the most demanding of PC games just fine.
-The only hard requirements for the official version of Citra is a graphics chip that supports at least OpenGL 3.3 and a 64-bit OS, but you definitely want a processor with the highest possible performance per core.
-
-
 
 **Specific Requirements and Features** 
 
