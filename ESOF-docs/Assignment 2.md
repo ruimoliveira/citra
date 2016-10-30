@@ -31,7 +31,7 @@ The only hard requirements for the official version of Citra is a graphics chip 
 
 
 
-** Specific Requirements and Features ** 
+**Specific Requirements and Features** 
 
 As we said in the introduction,software system requirements are often classified as functional requirements or non-functional requirements.
 The functional requirements for a system describe what the system should do.In this case a functional requerimet is having the emulator running smoothly and with no crashes.It will also include emulating the hardware spec - as the purpose of the emulator is to 
@@ -40,9 +40,6 @@ to duplicate the functionality of hardware.
 Non-functional requirements, as the name suggests, are requirements that are not directly concerned with the specific services delivered by the system to its users.Their non-functional requirement are adhering standarts to their code and following their design process.
 
 
-
-Specific Requirements and Features (Functional and Non-Functional requirements)
->Grade: 5pts
 
 **Use Cases**
 
