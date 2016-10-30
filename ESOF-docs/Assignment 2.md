@@ -10,7 +10,7 @@ System requirements are more detailed descriptions of the software system’s fu
 
 Software system requirements are often classified as functional requirements or non-functional requirements.
 The functional requirements for a system describe what the system should do. 
-Non-functional requirements, as the name suggests, are requirements that are not directly concerned with the specific services delivered by the system to its users.
+Non-functional requirements are requirements that are not directly concerned with the specific services delivered by the system to its users.
 
 Requirement engineering processes may include four important high-level activities. These focus on assessing if the system is useful to the business (feasibility study), discovering requirements (elicitation and analysis), converting these requirements into some standard form (specification), and checking that the requirements actually define the system that the customer wants (validation).
 
