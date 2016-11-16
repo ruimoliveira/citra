@@ -9,7 +9,7 @@ Logical View - Rui Oliveira
 Development View
 >Grade: 4pts
 
-Deployment View
+Deployment View - Francisco
 >Grade: 4 pts
 
 Process View - Guilherme Amaro
