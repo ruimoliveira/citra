@@ -10,7 +10,8 @@ Development View
 >Grade: 4pts
 
 Deployment View - Francisco
->Grade: 4 pts
+
+![alt tag](http://icecream.me/uploads/83154331cdc206fbec9c6c56a3c8d5fb.png)
 
 Process View - Guilherme Amaro
 >Grade: 4 pts
