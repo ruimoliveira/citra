@@ -3,14 +3,17 @@
 Architectural design is concerned with understanding how a system should be organized and designing the overall structure of that system. It is the critical link between design and requirements engineering, as it identifies the main structural components in a system and the relationships between them. The output of the architectural design process is an architectural model that describes how the system is organized as a set of communicating components.
 As Bosch said “ Software architecture is important because it affects the performance, robustness, distributability, and maintainability of a system ”.
 
-{{{The functional system requirements are implement by individual components.
-The non-functional requirements depend on the system architecture—the way in which these components are organized and communicate. In many systems, non-functional requirements are also influenced by individual components, but there is no doubt that the architecture of the system is the dominant influence.}}}
-The software architecture can serve firstly as a design plan for the negotiation of system requirements, and secondly as a means of structuring discussions with clients, developers, and managers.
-{{{Because of the close relationship between non-functional requirements and software architecture, the particular architectural style and structure that you choose for a system should depend on the non-functional system requirements}}}
 
-It is impossible to represent all relevant information about a system’s architecture in a single architectural model, as each model only shows one view or perspective of the system. There are different opinions as to what views are required. The well-known Krutchen’s 4+1 view model of software architecture, suggests that there should be four fundamental architectural views, which are related using use cases or scenarios. The views that he suggests are: Logical View, Development View, Deployment View and Process View.
-The architecture of a software system may be based on a particular architectural pattern or style. An architectural pattern is a description of a system organization. Architectural patterns are a means of reusing knowledge about generic system architectures. They describe the architecture, explain when it may be used, and discuss its advantages and disadvantages. Commonly used architectural patterns include Model-View-Controller, Layered Architecture, Repository, Client–server, and Pipe and Filter.
-{{{}}}
+The software architecture can serve firstly as a design plan for the negotiation of system requirements, and secondly as a means of structuring discussions with clients, developers, and managers.
+Because of the close relationship between non-functional requirements and software architecture, the particular architectural style and structure that we choose for a system should depend on the non-functional system requirements
+
+It is impossible to represent all relevant information about a system’s architecture in a single architectural model, as each model only shows one view or perspective of the system. There are different opinions as to what views are required. The well-known Krutchen’s 4+1 view model of software architecture, suggests that there should be four fundamental architectural views, which are related using use cases or scenarios. 
+The views that he suggests are: Logical View, Development View, Deployment View and Process View.
+
+The architecture of a software system may be based on a particular architectural pattern or style. An architectural pattern is a description of a system organization. Architectural patterns are a means of reusing knowledge about generic system architectures. They describe the architecture, explain when it may be used, and discuss its advantages and disadvantages.
+Commonly used architectural patterns include: Model-View-Controller, Layered Architecture, Repository, Client–server, and Pipe and Filter.
+
+
 We have found some architecture patterns on their code, such as Layered Architecture. They emulate the audio in one package and the video in other, which are the lower level layers. Then there is a package that uses those layers, asking services from the lower level layers.
 
 They also have confirmed to be using an ARM CPU emulator (as a starter) and things like IO, hashing, memory management from others open source projects. This parts of the code are easily adapted and can be reused for every kind of emulator, since it is a recurring problem. //não sei se se pode considerar isto um padrão visto q nao foram eles a "inventar o codigo" nem q nome se daria a este suposto padrão. help!
@@ -22,8 +25,20 @@ They also have confirmed to be using an ARM CPU emulator (as a starter) and thin
 **Logical View** - Rui Oliveira
 >Grade: 4pts
 
-Development View
->Grade: 4pts
+**Development View**
+
+The development view (also known as implementation view) focuses on decomposing software into components (program libraries, or subsystems) that are then developed by a small number of developers. These components are split into a hierarchy of layers, with the higher layers depending from the lower layers. The following component diagram depicts Citra's layer hierarchy and dependencies:
+
+Imagem**
+
+The game interacts with the emulator through an interface made available by the emualtor. The emulator deals with everything else. The user, in the game settings, defines which modules they want to be loaded. After that, the emualtor asks the module loader for those modules, using an interface made available by the module loader. Each of these modules contains a feature, meaning that any features that are added to the game do not put in danger the program functionality. The module loader then makes those modules available to the emualator.
+
+During the game, the emulator communicates with its core to send to the game component the information regarding the world, entities, configurations, audio, etc.
+
+In our opinion, this is an optimal approach since, as said, new modules can be added without compromising the entire system. This approach also allows each part of the system to be easily improved.
+
+
+
 
 **Deployment View**
 
