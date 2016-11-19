@@ -3,7 +3,6 @@
 Architectural design is concerned with understanding how a system should be organized and designing the overall structure of that system. It is the critical link between design and requirements engineering, as it identifies the main structural components in a system and the relationships between them. The output of the architectural design process is an architectural model that describes how the system is organized as a set of communicating components.
 As Bosch said “ Software architecture is important because it affects the performance, robustness, distributability, and maintainability of a system ”.
 
-
 The software architecture can serve firstly as a design plan for the negotiation of system requirements, and secondly as a means of structuring discussions with clients, developers, and managers.
 Because of the close relationship between non-functional requirements and software architecture, the particular architectural style and structure that we choose for a system should depend on the non-functional system requirements
 
@@ -13,8 +12,8 @@ The views that he suggests are: Logical View, Development View, Deployment View 
 The architecture of a software system may be based on a particular architectural pattern or style. An architectural pattern is a description of a system organization. Architectural patterns are a means of reusing knowledge about generic system architectures. They describe the architecture, explain when it may be used, and discuss its advantages and disadvantages.
 Commonly used architectural patterns include: Model-View-Controller, Layered Architecture, Repository, Client–server, and Pipe and Filter.
 
-
-We have found some architecture patterns on their code, such as Layered Architecture. They emulate the audio in one package and the video in other, which are the lower level layers. Then there is a package that uses those layers, asking services from the lower level layers.
+We have found some architecture patterns on their code, such as Layered Architecture.The notions of separation and independence are fundamental to architectural design because they allow changes to be localized.The layered architecture pattern is a way of achieving separation and independence. They emulate the audio in one package and the video in other, which are the lower level layers. Then there is a package that uses those layers to ask services from the lower level layers.The system functionality is organized into separate layers, and each layer only relies on the facilities and services offered by the layer immediately beneath it.
+This pattern has the advantage of allowing replacement of entire layers so long as the interface is maintained but in practice, providing a clean separation between layers is often difficult. 
 
 They also have confirmed to be using an ARM CPU emulator (as a starter) and things like IO, hashing, memory management from others open source projects. This parts of the code are easily adapted and can be reused for every kind of emulator, since it is a recurring problem. //não sei se se pode considerar isto um padrão visto q nao foram eles a "inventar o codigo" nem q nome se daria a este suposto padrão. help!
 
@@ -29,9 +28,9 @@ They also have confirmed to be using an ARM CPU emulator (as a starter) and thin
 
 The development view (also known as implementation view) focuses on decomposing software into components (program libraries, or subsystems) that are then developed by a small number of developers. These components are split into a hierarchy of layers, with the higher layers depending from the lower layers. The following component diagram depicts Citra's layer hierarchy and dependencies:
 
-![alt tag](http://imgur.com/a/JvW4A)
+![alt tag](https://s11.postimg.org/wghfquigz/development_view.png)
 
-The game interacts with the emulator through an interface made available by the emualtor. The emulator deals with everything else. The user, in the game settings, defines which modules they want to be loaded. After that, the emualtor asks the module loader for those modules, using an interface made available by the module loader. Each of these modules contains a feature, meaning that any features that are added to the game do not put in danger the program functionality. The module loader then makes those modules available to the emualator.
+The game interacts with the emulator through an interface made available by the emulator. The emulator deals with everything else. The user, in the game settings, defines which modules they want to be loaded. After that, the emulator asks the module loader for those modules, using an interface made available by the module loader. Each of these modules contains a feature, meaning that any features that are added to the game do not put in danger the program functionality. The module loader then makes those modules available to the emulator.
 
 During the game, the emulator communicates with its core to send to the game component the information regarding the world, entities, configurations, audio, etc.
 
