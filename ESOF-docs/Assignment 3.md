@@ -1,4 +1,7 @@
-Introduction to Software Architecture and the 4+1 Architectural View Model;
+**Introduction to Software Architecture and the 4+1 Architectural View Model;**
+
+Architectural design is concerned with understanding how a system should be organized and designing the overall structure of that system. It is the critical link between design and requirements engineering, as it identifies the main structural components in a system and the relationships between them. The output of the architectural design process is an architectural model that describes how the system is organized as a set of communicating components.
+As Bosch said “ Software architecture is important because it affects the performance, robustness, distributability, and maintainability of a system ”.  ( daqui a pouco já completo a introdução )
 
 **Architectural patterns** - todos
 
