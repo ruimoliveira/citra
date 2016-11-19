@@ -22,7 +22,7 @@ They also have confirmed to be using an ARM CPU emulator (as a starter) and thin
 //possivelmente o model view controller tbm é aplicado visto q tem q lidar com inputs de utilizadores e o render tem q se sujeitar a isso... fiquem livres de falar de outros padrões mesmo q nao sejam utilizados aqui e digam pq deveriam ser ou pq nao faz sentido serem usados
 
 
-**Logical View** - Rui Oliveira
+## Logical View - Rui Oliveira
 >Grade: 4pts
 
 
@@ -39,7 +39,7 @@ During the game, the emulator communicates with its core to send to the game com
 In our opinion, this is an optimal approach since, as said, new modules can be added without compromising the entire system. This approach also allows each part of the system to be easily improved.
 
 
-**Deployment View**
+## Deployment View
 
 The deployment view leans over the hardware requirements of the system. It maps artifacts to the hardware that uses them. It also models a system's logical elements, their physical location, and how they communicate. It is often used to create a rough sketch of the physical layout of a system early in the development lifecycle. The following diagram is what we consider it would be the development view for CITRA.
 
@@ -48,7 +48,7 @@ The deployment view leans over the hardware requirements of the system. It maps 
 CITRA is an emulator and debugger for nintendo 3DS, therefore it is requires a PC to run it. The pc must be 64bits, windows 7 or higher, Linux or Mac OS X and must have Opengl 3.3 or higher. The other important thing one needs to use CITRA is a ROM file which contains a (non-multiplayer) game. This ROM file is used for playing or debugging purposes.
 
 
-**Process View** - Guilherme Amaro
+## Process View - Guilherme Amaro
 >Grade: 4 pts
 
 **Group:**
