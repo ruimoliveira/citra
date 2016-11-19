@@ -29,7 +29,7 @@ They also have confirmed to be using an ARM CPU emulator (as a starter) and thin
 
 The development view (also known as implementation view) focuses on decomposing software into components (program libraries, or subsystems) that are then developed by a small number of developers. These components are split into a hierarchy of layers, with the higher layers depending from the lower layers. The following component diagram depicts Citra's layer hierarchy and dependencies:
 
-Imagem**
+![alt tag](http://imgur.com/a/JvW4A)
 
 The game interacts with the emulator through an interface made available by the emualtor. The emulator deals with everything else. The user, in the game settings, defines which modules they want to be loaded. After that, the emualtor asks the module loader for those modules, using an interface made available by the module loader. Each of these modules contains a feature, meaning that any features that are added to the game do not put in danger the program functionality. The module loader then makes those modules available to the emualator.
 
