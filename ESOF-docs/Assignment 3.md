@@ -15,16 +15,18 @@ The architecture of a software system may be based on a particular architectural
 Commonly used architectural patterns include: Model-View-Controller, Layered Architecture, Repository, Client–server, and Pipe and Filter.
 
 We have found some architecture patterns on their code, such as Layered Architecture.The notions of separation and independence are fundamental to architectural design because they allow changes to be localized.The layered architecture pattern is a way of achieving separation and independence. They emulate the audio in one package and the video in other, which are the lower level layers. Then there is a package that uses those layers to ask services from the lower level layers.The system functionality is organized into separate layers, and each layer only relies on the facilities and services offered by the layer immediately beneath it.
-This pattern has the advantage of allowing replacement of entire layers so long as the interface is maintained but in practice, providing a clean separation between layers is often difficult. 
+This pattern has the advantage of allowing replacement of entire layers so long as the interface is maintained, but in practice providing a clean separation between layers is often difficult. 
 
-They also have confirmed to be using an ARM CPU emulator (as a starter) and things like IO, hashing, memory management from others open source projects. This parts of the code are easily adapted and can be reused for every kind of emulator, since it is a recurring problem. //não sei se se pode considerar isto um padrão visto q nao foram eles a "inventar o codigo" nem q nome se daria a este suposto padrão. help!
+They also have confirmed to be using an ARM CPU emulator (as a starter) and processes like hashing, memory management and IO from others open source projects. This parts of the code are easily adapted and can be reused for every kind of emulator since it is a recurring problem.Generic models of application systems architectures help us understand the operation of applications, compare applications of the same type, validate application system designs, and assess large-scale components for reuse.
+
+//não sei se se pode considerar isto um padrão visto q nao foram eles a "inventar o codigo" nem q nome se daria a este suposto padrão. help!
+
+Model–view–controller can be used too since rendering have to deal with user inputs .As with other software architectures, model view controller expresses the "core of the solution" to a problem while allowing it to be adapted for each system.It divides a given software application into three interconnected parts, so as to separate internal representations of information from the ways that information is presented to or accepted from the user.
 
 //possivelmente o model view controller tbm é aplicado visto q tem q lidar com inputs de utilizadores e o render tem q se sujeitar a isso... fiquem livres de falar de outros padrões mesmo q nao sejam utilizados aqui e digam pq deveriam ser ou pq nao faz sentido serem usados
 
-
 ## Logical View - Rui Oliveira
 >Grade: 4pts
-
 
 ## Development View
 
@@ -38,7 +40,6 @@ During the game, the emulator communicates with its core to send to the game com
 
 In our opinion, this is an optimal approach since, as said, new modules can be added without compromising the entire system. This approach also allows each part of the system to be easily improved.
 
-
 ## Deployment View
 
 The deployment view leans over the hardware requirements of the system. It maps artifacts to the hardware that uses them. It also models a system's logical elements, their physical location, and how they communicate. It is often used to create a rough sketch of the physical layout of a system early in the development lifecycle. The following diagram is what we consider it would be the development view for CITRA.
@@ -47,9 +48,9 @@ The deployment view leans over the hardware requirements of the system. It maps 
 
 CITRA is an emulator and debugger for nintendo 3DS, therefore it is requires a PC to run it. The pc must be 64bits, windows 7 or higher, Linux or Mac OS X and must have Opengl 3.3 or higher. The other important thing one needs to use CITRA is a ROM file which contains a (non-multiplayer) game. This ROM file is used for playing or debugging purposes.
 
-
 ## Process View - Guilherme Amaro
 >Grade: 4 pts
+
 
 **Group:**
 
