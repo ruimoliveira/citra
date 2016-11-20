@@ -29,7 +29,10 @@ They also have confirmed to be using an ARM CPU emulator (as a starter) and proc
 
 
 ## Logical View - Rui Oliveira
->Grade: 4pts
+This view's primaty concern is to support the functional requirements by decomposing the system into a set of key abstractions (mostly taken from the problem domain), in the form of objects, object classes or packages taking full advantage on the principles of abstraction, encapsulation, and inheritance. This decomposition allows a nore functional analysis and serves to identify common mechanisms and design elements across the various parts of the system. This is the package diagram we used to describe this decomposition: (some connections may or may not yet implemented)
+
+![alt tag](http://i.imgur.com/s2eiTfD.png)
+
 
 ## Development View
 
@@ -63,4 +66,4 @@ CITRA is an emulator and debugger for nintendo 3DS, therefore it is requires a P
 
  -[Pedro Ferreira](https://github.com/pedrof81)
 
--[Rui Miguel Oliveira](https://github.com/ruimoliveira)
+ -[Rui Miguel Oliveira](https://github.com/ruimoliveira)
