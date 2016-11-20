@@ -28,7 +28,7 @@ The Client-Server architecture is not being used because there is no server to p
 They also have confirmed to be using an ARM CPU emulator (as a starter) and processes like hashing, memory management and IO from others open source projects. This parts of the code are easily adapted and can be reused for every kind of emulator since it is a recurring problem.Generic models of application systems architectures help us understand the operation of applications, compare applications of the same type, validate application system designs, and assess large-scale components for reuse.
 
 
-## Logical View - Rui Oliveira
+## Logical View
 This view's primaty concern is to support the functional requirements by decomposing the system into a set of key abstractions (mostly taken from the problem domain), in the form of objects, object classes or packages taking full advantage on the principles of abstraction, encapsulation, and inheritance. This decomposition allows a nore functional analysis and serves to identify common mechanisms and design elements across the various parts of the system. This is the package diagram we used to describe this decomposition: (some connections may or may not yet implemented)
 
 ![alt tag](http://i.imgur.com/s2eiTfD.png)
