@@ -54,8 +54,7 @@ The deployment view leans over the hardware requirements of the system. It maps 
 
 CITRA is an emulator and debugger for nintendo 3DS, therefore it is requires a PC to run it. The pc must be 64bits, windows 7 or higher, Linux or Mac OS X and must have Opengl 3.3 or higher. The other important thing one needs to use CITRA is a ROM file which contains a (non-multiplayer) game. This ROM file is used for playing or debugging purposes.
 
-## Process View - Guilherme Amaro
->Grade: 4 pts
+## Process View
 
 
 **Group:**
