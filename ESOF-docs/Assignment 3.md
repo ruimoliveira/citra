@@ -56,6 +56,8 @@ CITRA is an emulator and debugger for nintendo 3DS, therefore it is requires a P
 
 ## Process View
 
+![alt tag](https://www.mediafire.com/convkey/b55b/54xj98c475t54pp6g.jpg)
+
 
 **Group:**
 
