@@ -9,6 +9,7 @@ Discuss Software Testability and Reviews: controllability, observability, isolat
 Report Test Statistics and analytics:  e.g., number of test cases, percentage of coverage, number of flaky tests, etc. (see links of projects in moodle for inspiration)
 
 >Grade: 8pts
+
 Identify a new bug and/or correct a bug
 >Grade: 6pts (identification: 4 points; correction: 2 points)
 
