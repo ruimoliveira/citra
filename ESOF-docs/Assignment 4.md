@@ -42,20 +42,19 @@ Heterogeneity determines if the use of external technologies like libraries requ
 
 //In CITRA, ...
 
-**Report Test Statistics and analytics:  e.g., number of test cases, percentage of coverage, number of flaky tests, etc. (see links of projects in moodle for inspiration)**
+**Test Statistics and Analysis**
 
->Grade: 8pts
+Citra is using [Catch](https://github.com/philsquared/Catch/)-based tests, but currently almost nothing in the Citra Repository is being tested. In the [Dynarmic Repository](https://github.com/MerryMage/dynarmic) (another open source project that is used by Citra to emulate Nintendo's 3DS CPU - ARM11 architecture) has a lot more coverage.
 
-Citra is using [Catch](https://github.com/philsquared/Catch/)-based tests, currently almost nothing in the Citra Repository is being tested, but the [Dynarmic Repository](https://github.com/MerryMage/dynarmic) (another open source project that is used by Citra to emulate Nintendo's 3DS CPU - ARM11 architecture) has a lot more coverage.
-From what we could perceive, no tests were implemented yet mainly due to many reasons.
+From what we could perceive, the lack of test implementation is due to multiple reasons:
 
-priority definitions, sometimes it's more important to efficient to focus on coding something and after everything is done code the tests
-reverse engineering project (REP), since this is a REP, it is not always clear if testing is being done correctly, that is, if tests results are false positives, so it is best to move 
-less contributors willing to do tests, some of the times humans are lazy, and we all fall guilty with that one
+- priorities other than unit testing;
+- less contributors willing to do tests, requiring all contributors to do write tests for their code cuold result in loss of interested contributors;
+- since Citra is a reverse engineering project, it is not always clear if testing is being done correctly, that is, if tests results are false positives, if something is working for a particular game, it does not mean it will work on all games.
 
-so code quality is garanteed the good old fashion way, while(!working) recode();
+This means that code quality is garanteed the good old fashion way. The code is working until proved otherwise. This is by all means not the best way to assure code quality in software development, but considering nature of the project at hand, it certainly is the most adequate.
 
-Identify a new bug and/or correct a bug
+**Identify a new bug and/or correct a bug**
 >Grade: 6pts (identification: 4 points; correction: 2 points)
 
 You think your project has no bugs?! Then, you do need to have a compelling story for us to credit you 6pts! 
