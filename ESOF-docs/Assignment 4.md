@@ -10,31 +10,31 @@ Discuss Software Testability and Reviews: controllability, observability, isolat
 
 Before starting to test, developers usually ask the question "How hard it is to to test this component?". Controllability determines the work it takes to test the CUT (component under test) to an extent of which function will be called in the test cases. The more dependencies it has with other components, the harder it is to test, because we need to find simulations of those interactions that the CUT can have.
 
-//In CITRA, ...
+In Citra, most of the components have a good controllability since they don't have many dependencies and can be tested fairly easy. However, there are some modules that depends on many other modules input to correctly work. In this case it can become very hard to test the output from this component, which means the controllability is low.
 
 **Observability**
 
 Now that we know the controllability of a component, what do we need to do so the test cases pass? Observability measures the dificulty of caputring component's output and determines if this output is correct. It is a simple thing if a component only does simple functions, but if it has accumulated some inputs it can be quite tricky to confirm that the current input is related to the output.
 
-//In CITRA, ...
+Citra's components are divided into small functions but since the project is an emulator, it accumulates large quantities of data. This makes it difficult to test if the output obtained is correct, which makes observability low.
 
 **Isolateability**
 
-Isolateability decides whether it is possible to test each function output isolated or if we have to process a number of functions before we can evaluate the output. The first case is the optimal choice but it may not be possible. The latter will increase the time of solution in case of error because there is a lot of code to go through.
+Isolateability decides whether it is possible to test each function output isolated or if we have to process a number of functions before we can evaluate the output. The first case is the optimal choice but it may not be possible. The latter will increase the time to find a solution in case of error because there is a lot of code to go through.
 
-//In CITRA, ...
+We think that Citra has good isolateability since they divide every component into small functions which makes it easier to find a mistake.
 
 **Separation of concerns**
 
 Separation of concerns is the name of a design which means that a project should be separated into different sections, in order for each section to deal with a determined concern (data that changes the code). The main use of this design is to be able to reuse certain some sections and it is easier to develop each section independently from others.
 
-//In CITRA, ...
+Citra does use this design, for example: everything related to audio is emulated in a component, evertything related to video is emulated in another components. And in each there are sub-components that deal with small aspects of the emulation. So we think this approach is quite good.
 
 **Understandability**
 
 Evalutes whether the CUT is well documented and if a person reading it would be able to comprehend it easily.
 
-//In CITRA, ...
+In this project, we think documentation of the code is average (at least for a person which is viweing the source code for the first times). The function's names are usually self explanatory. Inside the functions there are examples where it is explained in detail what is happening and examples where that isn't verified. This probably occurs because contributors are not the same and documentation isn't demanded on pull request (it is advised). This later case makes people lose more time than what is supposed to understand what is happening in detail.
 
 **Heterogeneity**
 
