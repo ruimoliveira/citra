@@ -42,9 +42,18 @@ Heterogeneity determines if the use of external technologies like libraries requ
 
 //In CITRA, ...
 
-Report Test Statistics and analytics:  e.g., number of test cases, percentage of coverage, number of flaky tests, etc. (see links of projects in moodle for inspiration)
+**Report Test Statistics and analytics:  e.g., number of test cases, percentage of coverage, number of flaky tests, etc. (see links of projects in moodle for inspiration)**
 
 >Grade: 8pts
+
+Citra is using [Catch](https://github.com/philsquared/Catch/)-based tests, currently almost nothing in the Citra Repository is being tested, but the [Dynarmic Repository](https://github.com/MerryMage/dynarmic) (another open source project that is used by Citra to emulate Nintendo's 3DS CPU - ARM11 architecture) has a lot more coverage.
+From what we could perceive, no tests were implemented yet mainly due to many reasons.
+
+priority definitions, sometimes it's more important to efficient to focus on coding something and after everything is done code the tests
+reverse engineering project (REP), since this is a REP, it is not always clear if testing is being done correctly, that is, if tests results are false positives, so it is best to move 
+less contributors willing to do tests, some of the times humans are lazy, and we all fall guilty with that one
+
+so code quality is garanteed the good old fashion way, while(!working) recode();
 
 Identify a new bug and/or correct a bug
 >Grade: 6pts (identification: 4 points; correction: 2 points)
