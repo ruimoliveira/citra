@@ -13,7 +13,7 @@ In Citra, most of the components have a good controllability since they don't ha
 
 ##**Observability**
 
-Now that we know the controllability of a component, what do we need to do so the test cases pass? Observability measures the dificulty of caputring component's output and determines if this output is correct. It is a simple thing if a component only does simple functions, but if it has accumulated some inputs it can be quite tricky to confirm that the current input is related to the output.
+Now that we know the controllability of a component, what do we need to do so the test cases pass? Observability measures the dificulty of caputring component's output and determines if this output is correct,its the degree to which it is possible to observe (intermediate and final) test results.It is a simple thing if a component only does simple functions, but if it has accumulated some inputs it can be quite tricky to confirm that the current input is related to the output.
 
 Citra's components are divided into small functions but since the project is an emulator, it accumulates large quantities of data. This makes it difficult to test if the output obtained is correct, which makes observability low.
 
