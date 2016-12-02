@@ -5,6 +5,8 @@ In particular, this report should discuss the following
 
 #Software Testability and Reviews
 
+In the following topics Citra's marks of testability will be discussed, focusing mainly on verification (which consists in ensuring that the product is being well built with the requirements obtained in mind) and validation (which consists in ensuring that the product will meet the intended purpose and the needs of its stakeholers).
+
 Testability, a property applying to empirical hypothesis, involves two components. The effort and effectiveness of software tests depends on numerous factors including properties of the software requirements,properties of the software itself (such as size, complexity and testability),properties of the test methods used,properties of the development- and testing processes and qualification and motivation of the persons involved in the test process.
 The testability of software components (modules, classes) is determined by factors such as:
 
