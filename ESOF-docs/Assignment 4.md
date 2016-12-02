@@ -5,6 +5,9 @@ In particular, this report should discuss the following
 
 #Software Testability and Reviews
 
+Testability, a property applying to empirical hypothesis, involves two components. The effort and effectiveness of software tests depends on numerous factors including properties of the software requirements,properties of the software itself (such as size, complexity and testability),properties of the test methods used,properties of the development- and testing processes and qualification and motivation of the persons involved in the test process.
+The testability of software components (modules, classes) is determined by factors such as:
+
 ##**Controllability**
 
 Before starting to test, developers usually ask the question "How hard it is to to test this component?". Controllability determines the work it takes to test the CUT (component under test) to an extent of which function will be called in the test cases. The more dependencies it has with other components, the harder it is to test, because we need to find simulations of those interactions that the CUT can have.
