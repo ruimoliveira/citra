@@ -56,6 +56,7 @@ This means that code quality is garanteed the good old fashion way. The code is 
 #**Identify a new bug and/or correct a bug**
 
 Acredito em ti Guilherme.
+Força Guilherme!
 
 **Group:**
 
