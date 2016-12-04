@@ -43,7 +43,7 @@ Citra is using a component which belongs to another OSP. Tests of that component
 
 #**Test Statistics and Analysis**
 
-Citra is using [Catch](https://github.com/philsquared/Catch/)-based tests, but currently almost nothing in the Citra Repository is being tested. In the [Dynarmic Repository](https://github.com/MerryMage/dynarmic) (another open source project that is used by Citra to emulate Nintendo's 3DS CPU - ARM11 architecture) has a lot more coverage (40%).
+Citra is using [Catch](https://github.com/philsquared/Catch/)-based tests, but currently almost nothing in the Citra Repository is being tested. In the [Dynarmic Repository](https://github.com/MerryMage/dynarmic) (another open source project that is used by Citra to emulate Nintendo's 3DS CPU - ARM11 architecture) has a lot more coverage.
 
 From what we could perceive, the lack of test implementation is due to multiple reasons:
 
