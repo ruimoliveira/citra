@@ -1,9 +1,4 @@
-
-The goal of this fourth assignment is to document the project according to the current state with respect to verification and validation. This assignment requires you to carefully and thoroughly inspect the source code. You're also free to choose (static/dynamic) testing tools to help you test and debug and project. 
-
-In particular, this report should discuss the following
-
-#Software Testability and Reviews
+##**Software Testability and Reviews**
 
 In the following topics Citra's marks of testability will be discussed, focusing mainly on verification (which consists in ensuring that the product is being well built with the requirements obtained in mind) and validation (which consists in ensuring that the product will meet the intended purpose and the needs of its stakeholers).
 
@@ -44,21 +39,30 @@ In this project, we think documentation of the code is average (at least for a p
 
 Heterogeneity determines if the use of external technologies like libraries require some tests too. Normally, projects tend to use libraries that are already tested. However, when there is a need to use a library that isn't fully tested, developers need to add some test cases to verify the output of the functions that will be used.
 
-//In CITRA, ...
+Citra is using a component which belongs to another OSP. Tests of that component don't cover half of the code, so to be certain that this component properly works, it is necessary to add a lot more tests. In conclusion, Heterogeneity in Citra is below the intended level.
 
 #**Test Statistics and Analysis**
 
-Citra is using [Catch](https://github.com/philsquared/Catch/)-based tests, but currently almost nothing in the Citra Repository is being tested. In the [Dynarmic Repository](https://github.com/MerryMage/dynarmic) (another open source project that is used by Citra to emulate Nintendo's 3DS CPU - ARM11 architecture) has a lot more coverage.
+Citra is using [Catch](https://github.com/philsquared/Catch/)-based tests, but currently almost nothing in the Citra Repository is being tested. In the [Dynarmic Repository](https://github.com/MerryMage/dynarmic) (another open source project that is used by Citra to emulate Nintendo's 3DS CPU - ARM11 architecture) has a lot more coverage (40%).
 
 From what we could perceive, the lack of test implementation is due to multiple reasons:
 
 - priorities other than unit testing;
-- less contributors willing to do tests, requiring all contributors to do write tests for their code cuold result in loss of interested contributors;
+- less contributors willing to do tests, requiring all contributors to do write tests for their code could result in loss of interested contributors;
 - since Citra is a reverse engineering project, it is not always clear if testing is being done correctly, that is, if tests results are false positives, if something is working for a particular game, it does not mean it will work on all games.
 
 This means that code quality is garanteed the good old fashion way. The code is working until proved otherwise. This is by all means not the best way to assure code quality in software development, but considering nature of the project at hand, it certainly is the most adequate.
 
 #**Identify a new bug and/or correct a bug**
->Grade: 6pts (identification: 4 points; correction: 2 points)
 
-You think your project has no bugs?! Then, you do need to have a compelling story for us to credit you 6pts! 
+Acredito em ti Guilherme.
+
+**Group:**
+
+ -[Guilherme Amaro](https://github.com/PORShoterxx)
+
+ -[José Francisco Gomes](https://github.com/teresa-Guilherme/)
+
+ -[Pedro Ferreira](https://github.com/pedrof81)
+
+ -[Rui Miguel Oliveira](https://github.com/ruimoliveira)
