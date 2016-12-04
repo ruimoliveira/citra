@@ -57,7 +57,7 @@ This means that code quality is garanteed the good old fashion way. The code is 
 
 We have successfully identified a new bug in Citra. Although seemingly minor, it's unknown how it may propagate through the emulation, other than UI items appearing blank. It could potentialy cause region-locked games, or poorly coded games to attempt to read an impossible value, causing further issues. The window layout also had this issue, but it defaults correctly, so only a log event was added.
 
-Since the current main development branch has switched to [bleeding-edge] (faster updates, but more bugs), it was posted there, which meant an issue could not be created (as the developers requested). Instead, a link to the pull request is given: https://github.com/citra-emu/citra-bleeding-edge/pull/15
+Since the current main development branch has switched to [bleeding-edge](https://github.com/citra-emu/citra-bleeding-edge) (faster updates, but more bugs), it was posted there, which meant an issue could not be created (as the developers requested). Instead, a link to the pull request is given: https://github.com/citra-emu/citra-bleeding-edge/pull/15
 
 **Group:**
 
