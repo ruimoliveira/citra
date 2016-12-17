@@ -9,7 +9,7 @@ See the pdf with an example of a report of the interesting metrics and a descrip
 
 
 ![alt tag](http://icecream.me/uploads/6ddb59eff0ed22cbfcf68e6af0be7841.png)
-![alt tag](http://icecream.me/2439771fc8bbb7c4ee0e624c6de49379)
+![alt tag](http://icecream.me/uploads/2439771fc8bbb7c4ee0e624c6de49379.png)
 
 
 Grade: 4pts
