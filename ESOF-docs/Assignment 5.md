@@ -31,7 +31,7 @@ See the pdf with an example of a report of the interesting metrics and a descrip
 **Automate Tests**
 ![alt tag](http://icecream.me/uploads/73f2cc85840f5ade5f5da84688cab1b6.png)
 
-On this guideline, this tool is 100% correct since there aren't any tests in Citra, as it was explained in the last assignments.
+Since there isn't a directory called "/test/", this tool will assume there aren't any tests made, unless we include them in the configuration file. Citra has currently 0 tests as said in previous assignments so there aren't any files to be included.
 
 **Write Clean Code**
 ![alt tag](http://icecream.me/uploads/89f79fc483a9a9b3c3b1de7fc46d409e.png)
