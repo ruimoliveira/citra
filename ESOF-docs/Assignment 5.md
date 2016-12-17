@@ -21,8 +21,10 @@ See the pdf with an example of a report of the interesting metrics and a descrip
 ![alt tag](http://icecream.me/uploads/b638bf71ef433547c98189d286bf70a4.png)
 **Couple Architecture Components Loosely**
 ![alt tag](http://icecream.me/uploads/9cad7ee9cc1f7c48e0588e5be9ed9a93.png)
+
 **Keep Architecture Components Balanced**
-![alt tag](http://icecream.me/uploads/789ab3e36e0d0767a8ec3776ca25d9bf.png)
+![alt tag](http://icecream.me/uploads/6be4a21baf42cbe198e878a61bdd251b.png)
+
 **Keep Your Codebase Small**
 ![alt tag](http://icecream.me/uploads/dcf687344483c3f60981ac2f802d32cf.png)
 
