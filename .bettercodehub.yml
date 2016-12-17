@@ -1,0 +1,9 @@
+exclude:
+- /.travis-build.sh
+- /.travis-deps.sh
+- /.travis-upload.sh
+- /externals/.*
+component_depth: 1
+languages:
+- cpp
+- script
