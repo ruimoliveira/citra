@@ -24,10 +24,10 @@ See the pdf with an example of a report of the interesting metrics and a descrip
 **Keep Architecture Components Balanced**
 ![alt tag](http://icecream.me/uploads/789ab3e36e0d0767a8ec3776ca25d9bf.png)
 **Keep Your Codebase Small**
-![alt tag](http://icecream.me/uploads/a61417e9e74a86ab5ba6474f08d0a875.png)
+![alt tag](http://icecream.me/uploads/dcf687344483c3f60981ac2f802d32cf.png)
 
 **Automate Tests**
-![alt tag](http://icecream.me/uploads/dcf687344483c3f60981ac2f802d32cf.png)
+![alt tag](http://icecream.me/uploads/73f2cc85840f5ade5f5da84688cab1b6.png)
 
 On this guideline, this tool is 100% correct since there aren't any tests in Citra, as it was explained in the last assignments.
 
