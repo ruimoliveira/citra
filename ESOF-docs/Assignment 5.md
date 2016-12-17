@@ -7,7 +7,7 @@ In particular, this report should discuss the following
 Students should contact the recitations professor in order to be added to the ESOF organization to be able to automatically compute the metrics of interest using the service https://bettercodehub.com/. 
 See the pdf with an example of a report of the interesting metrics and a description of what they represent. 
 
-![alt tag](http://http://icecream.me/2439771fc8bbb7c4ee0e624c6de49379)
+![alt tag](http://icecream.me/2439771fc8bbb7c4ee0e624c6de49379)
 
 Grade: 4pts
 
