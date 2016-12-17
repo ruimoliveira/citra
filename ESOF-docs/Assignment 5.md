@@ -2,6 +2,8 @@
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/ruimoliveira/citra)](https://bettercodehub.com)
 
+![alt tag](https://img.shields.io/badge/Better%20Code-%203%20%2F%2010-B4264C.svg)
+
 The goal of this last assignment is to evolve a feature in the selected project and document how the process taken to evolve the feature (that is, document the change impact analysis and feature evolution)
 
 In particular, this report should discuss the following
