@@ -33,6 +33,7 @@ On this guideline, this tool is 100% correct since there aren't any tests in Cit
 **Write Clean Code**
 ![alt tag](http://icecream.me/uploads/89f79fc483a9a9b3c3b1de7fc46d409e.png)
 
+We do agree with this guideline result but there are certain aspects of it wihich we don't understand. For example, how does and algorithm determines if a variable name is appropriate or not or how does it determine if a comment is useless or not. Some of the marked lines where comments with "//TODO" statements. We disagree with this measure because it gives an idea of what is still there to be done and (sometimes) who is gonna do it. Of course when it is done, the comment will be removed, so we dont think it should be considered a useless comment.
 
 Grade: 4pts
 
