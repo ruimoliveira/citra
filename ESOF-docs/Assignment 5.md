@@ -28,6 +28,8 @@ See the pdf with an example of a report of the interesting metrics and a descrip
 **Keep Your Codebase Small**
 ![alt tag](http://icecream.me/uploads/dcf687344483c3f60981ac2f802d32cf.png)
 
+We agree with this result because the way the code is distributed in the source folder makes it fairly easy to locate whatever it is that we are trying find in order to change/implement. It has a structure of packages and sub-packages with very straight forward names. There is on component that has a lot more code than others (3x more) but the component size uniformity is rather good.
+
 **Automate Tests**
 ![alt tag](http://icecream.me/uploads/73f2cc85840f5ade5f5da84688cab1b6.png)
 
