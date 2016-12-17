@@ -15,6 +15,9 @@ See the pdf with an example of a report of the interesting metrics and a descrip
 ![alt tag](http://icecream.me/uploads/dee6c584c04681b7430ce5e2ebfed6af.png)
 **Write Code Once**
 ![alt tag](http://icecream.me/uploads/d6adb4c813d0fb5804b34616c0405c2e.png)
+
+There are some sections of the code that define the same object in different places. We dont know the reason as why this happened, probably different people doing this functions which resulted in writing the same thing twice. This also happens with functions that do exactly the same thing or use a considerable amount of code that has already been used somewhere else. It probably has the same reason behind this issue. So we can conclude that this tool was effective in finding repeated code and Citra has a considerable amount of it.
+
 **Keep Unit Interfaces Small**
 ![alt tag](http://icecream.me/uploads/d8e1c1837eac716afed48c715fbcf22c.png)
 
