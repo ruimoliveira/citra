@@ -17,6 +17,9 @@ See the pdf with an example of a report of the interesting metrics and a descrip
 ![alt tag](http://icecream.me/uploads/d6adb4c813d0fb5804b34616c0405c2e.png)
 **Keep Unit Interfaces Small**
 ![alt tag](http://icecream.me/uploads/d8e1c1837eac716afed48c715fbcf22c.png)
+
+Citra tends to use functions with many parameters (more than 4) and we think it could probably be easy to group similar parameters into objects, reducing then the number of arguments, thus turning the code easiert to read.
+
 **Separate Concerns in Modules**
 ![alt tag](http://icecream.me/uploads/b638bf71ef433547c98189d286bf70a4.png)
 **Couple Architecture Components Loosely**
@@ -25,10 +28,10 @@ See the pdf with an example of a report of the interesting metrics and a descrip
 **Keep Architecture Components Balanced**
 ![alt tag](http://icecream.me/uploads/6be4a21baf42cbe198e878a61bdd251b.png)
 
+We agree with this result because the way the code is distributed in the source folder makes it fairly easy to locate whatever it is that we are trying find in order to change/implement. It has a structure of packages and sub-packages with very straight forward names. There is on component that has a lot more code than others (3x more) but the component size uniformity is rather good.
+
 **Keep Your Codebase Small**
 ![alt tag](http://icecream.me/uploads/dcf687344483c3f60981ac2f802d32cf.png)
-
-We agree with this result because the way the code is distributed in the source folder makes it fairly easy to locate whatever it is that we are trying find in order to change/implement. It has a structure of packages and sub-packages with very straight forward names. There is on component that has a lot more code than others (3x more) but the component size uniformity is rather good.
 
 **Automate Tests**
 ![alt tag](http://icecream.me/uploads/73f2cc85840f5ade5f5da84688cab1b6.png)
