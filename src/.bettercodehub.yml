@@ -1,3 +1,8 @@
+exclude:
+- /.travis-build.sh
+- /.travis-deps.sh
+- /.travis-upload.sh
+- /externals/.*
 component_depth: 2
 languages:
 - cpp
