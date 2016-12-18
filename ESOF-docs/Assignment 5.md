@@ -57,6 +57,9 @@ Since there isn't a directory called "/test/", this tool will assume there aren'
 We do agree with this guideline result but there are certain aspects of it wihich we don't understand. For example, how does and algorithm determines if a variable name is appropriate or not or how does it determine if a comment is useless or not. Some of the marked lines where comments with "//TODO" statements. We disagree with this measure because it gives an idea of what is still there to be done and (sometimes) who is gonna do it. Of course when it is done, the comment will be removed, so we dont think it should be considered a useless comment.
 
 
+In conclusion, as explained above there are a few points which we don't agree, especially the useless comments part which doesn't make much sense to us. Some of the points above may not be optional at certain circunstances but overall this tool does the job its supposed to do.
+
+
 ##**Report evolution process (change impact analysis and implementation)**
 Citra is an in-development open-source project. Not long ago, it would barely be considered playable, let alone boot commercial games. However, this has changed for the better, and many games run OK on most computers, but that varies per game and per user. In order to run them on lower-end machines, some options need to be configured. There's also a need to configure multiple entries for controls, most of which are not clear, or even debug settings which have almost no explanation. 
 
