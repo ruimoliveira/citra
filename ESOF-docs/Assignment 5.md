@@ -35,6 +35,8 @@ We agree with this result because the way the code is distributed in the source 
 **Keep Your Codebase Small**
 ![alt tag](http://icecream.me/uploads/dcf687344483c3f60981ac2f802d32cf.png)
 
+A large system takes more effort to analyze, test and modify. Therefore changing a part of a system or a functionality of one is more costly the bigger the system is. So its better to keep the system as small as possible. Citra has a medium-sized system, evaluated in 5 man-years which is way below the 20 man-year mark. We agree with this test result because Citra is not a big project, but rather a medium-sized one.
+
 **Automate Tests**
 ![alt tag](http://icecream.me/uploads/73f2cc85840f5ade5f5da84688cab1b6.png)
 
