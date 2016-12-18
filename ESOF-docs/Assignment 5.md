@@ -1,12 +1,10 @@
-#**Assignment 5: Software Maintenance/Evolution**
+<h1 align="center">Assignment 5</h1>
+<h1 align="center">Software Maintenance/Evolution</h1>
+[![BCH compliance](https://bettercodehub.com/edge/badge/ruimoliveira/citra)](https://bettercodehub.com)
 
-![alt tag](https://img.shields.io/badge/Better%20Code-%203%20%2F%2010-B4264C.svg)
+In Software Engineering, software maintenance and evolution is discribred as an optimization process of an already developed software project. In which there should be some feature improvement, error correction/prevention, adaptation to any change in system requirements and new features. For some projects, these changes can be expensive, but since Citra is an open source project, the only currency is time.
 
-The goal of this last assignment is to evolve a feature in the selected project and document how the process taken to evolve the feature (that is, document the change impact analysis and feature evolution)
-
-In particular, this report should discuss the following
-
-##**Discuss Software Maintainability using the SIG metrics (plus add the badge to your .md file).**
+##Software Maintainability
 Students should contact the recitations professor in order to be added to the ESOF organization to be able to automatically compute the metrics of interest using the service https://bettercodehub.com/. 
 See the pdf with an example of a report of the interesting metrics and a description of what they represent. 
 
