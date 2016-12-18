@@ -69,7 +69,7 @@ The idea behind it is straight-forward. On its first run, Citra opens a window w
 
 
 ##**Link to pull request**
-Sadly, due to time constraints, this segment of the assignment was deliberatly skipped. While the implementation is indeed "simple", it requires knowledge on how to use the QT interface creator. With more pressing subjects at hand, this was deemed lower priority, and thus was not completed in time.
+Sadly, due to time constraints, this segment of the assignment was deliberately skipped. While the implementation is indeed "simple", it requires knowledge on how to use the QT interface creator. With more pressing subjects at hand, this was deemed lower priority, and thus was not completed in time.
 
 
 **Group:**
