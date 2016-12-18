@@ -28,8 +28,13 @@ Citra tends to use functions with many parameters (more than 4) and we think it 
 
 **Separate Concerns in Modules**
 ![alt tag](http://icecream.me/uploads/b638bf71ef433547c98189d286bf70a4.png)
+
+We do think Citra has a good as possible separation of concerns. They try to separate most of the data they receive properly but the vast majority of it goes to emulating the CPU which makes calls to other classes thus making the CPU handler harder to understand and analyze.
+
 **Couple Architecture Components Loosely**
 ![alt tag](http://icecream.me/uploads/9cad7ee9cc1f7c48e0588e5be9ed9a93.png)
+
+
 
 **Keep Architecture Components Balanced**
 ![alt tag](http://icecream.me/uploads/6be4a21baf42cbe198e878a61bdd251b.png)
