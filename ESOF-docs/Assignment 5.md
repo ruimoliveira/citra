@@ -5,13 +5,17 @@
 In Software Engineering, software maintenance and evolution is discribred as an optimization process of an already developed software project. In which there should be some feature improvement, error correction/prevention, adaptation to any change in system requirements and new features. For some projects, these changes can be expensive, but since Citra is an open source project, the only currency is time.
 
 ##Software Maintainability
-Students should contact the recitations professor in order to be added to the ESOF organization to be able to automatically compute the metrics of interest using the service https://bettercodehub.com/. 
-See the pdf with an example of a report of the interesting metrics and a description of what they represent. 
 
 **Write Short Units of Code**
 ![alt tag](http://icecream.me/uploads/2439771fc8bbb7c4ee0e624c6de49379.png)
+
+Citra does have functions that are big and probably could be made into smaller functions. But the 15 line rule is a little incomprehensive. The bigger the function is, the harder is it to comprhend it, but there may be cases that it may not make sense to take a part of a function out just because it hit the limit of 15 lines. Also in this results there are examples of it counting defines and some big switch cases where it doesn't make sense counting those.
+
 **Write Simple Units of Code**
 ![alt tag](http://icecream.me/uploads/dee6c584c04681b7430ce5e2ebfed6af.png)
+
+This project consists in emulating software and reverse engineering which makes it really hard to contain the number of branch points lower. There is a considerable amount of cases that may occur in different situations
+
 **Write Code Once**
 ![alt tag](http://icecream.me/uploads/d6adb4c813d0fb5804b34616c0405c2e.png)
 
