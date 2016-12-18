@@ -56,18 +56,18 @@ Since there isn't a directory called "/test/", this tool will assume there aren'
 
 We do agree with this guideline result but there are certain aspects of it wihich we don't understand. For example, how does and algorithm determines if a variable name is appropriate or not or how does it determine if a comment is useless or not. Some of the marked lines where comments with "//TODO" statements. We disagree with this measure because it gives an idea of what is still there to be done and (sometimes) who is gonna do it. Of course when it is done, the comment will be removed, so we dont think it should be considered a useless comment.
 
-Grade: 4pts
 
 ##**Report evolution process (change impact analysis and implementation)**
-Briefly describe how the feature you decided to evolve was identified; why you decide to evolve that particular feature? How did you locate the parts in the source code that needed to be modified; etc.  
+Citra is an in-development open-source project. Not long ago, it would barely be considered playable, let alone boot commercial games. However, this has changed for the better, and many games run OK on most computers, but that varies per game and per user. In order to run them on lower-end machines, some options need to be configured. There's also a need to configure multiple entries for controls, most of which are not clear, or even debug settings which have almost no explanation. 
 
-Grade: 12pts
+For a project that is now starting to reach a wider userbase, this is becoming an issue, with people not knowing what to do. In light of that, we decided that a setup wizard would be a great addition to Citra. It's a rather "simple" implementation, as it does not affect the internal structure of the emulator, and only needs a few modifications to the QT UI, which is located in the citra_qt package.
+
+The idea behind it is straight-forward. On its first run, Citra opens a window with the setup wizard, asking whether you wish to proceed with the guided setup, or just jump straight to the game with default settings. If the user accepts its aid, it goes through the various categories and settings, explaining what to enable and disable based on what the user expects from his situation.
+
 
 ##**Link to pull request**
+Sadly, due to time constraints, this segment of the assignment was deliberatly skipped. While the implementation is indeed "simple", it requires knowledge on how to use the QT interface creator. With more pressing subjects at hand, this was deemed lower priority, and thus was not completed in time.
 
-Grade: 4pts
-
-Submission date (i.e., last commit to the repository): 23:59, 18-12-2016.
 
 **Group:**
 
